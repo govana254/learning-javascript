@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>JavaScript String Methods</h1>
-    <p>Convert string to upper case:</p>
+    <p>Converting  strings to upper case and lower case:</p>
 
     <button onclick="myFunction()">Try it</button>
 
@@ -23,7 +23,33 @@
 
             let sentence = document.getElementById("welcome"). innerHTML;
             document.getElementById ("welcome").innerHTML = sentence.toLowerCase();
-        }   
+        }
+        
+        let text1 = "Hello";
+
+        let text2 = "World";
+
+        let text3 = text1.concat(" ", text2);
+
+        console.log(text3);
+
+        let text4 = "  Hello World!   "
+
+        let text5 = text4.trim();
+
+
+        let text6 = "5";
+        
+        let padded = text6.padStart(8,"x");
+        
+        console.log(padded);
+
+        let text7 = "5";
+
+        let padded2 = text7.padEnd(5, "4");
+
+        console.log(padded2);
+
     </script>
 
 </body>
