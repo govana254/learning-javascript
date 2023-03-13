@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stima Sacco</title>
+</head>
+<body>
+    <img src="https://www.stima-sacco.com/wp-content/uploads/Stima-sacco-Logo-1-1-e1632550735227-300x128.png" alt="logo">
+    <p>Fikisha your Financial Targets</p>
+    <button onclick="myFunction()">Login</button>
+    <script>
+        function myFunction(){
+            let userName = prompt("Who's there?", "");
+
+            if (userName === "Admin") {
+                let pass = prompt("password?","");
+
+                if (pass === "TheMaster"){
+                alert("Welcome!");
+                }else if (pass === "" || pass === null) {
+                alert ("Canceled");
+                }else {
+                alert( "Wrong password");
+                }
+            }else if (userName === "" || userName === null){
+                alert( "Canceled");
+            }else {
+                alert("I don't know you");
+            }
+        }
+    </script>
+</body>
+</html>
