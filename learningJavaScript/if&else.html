@@ -7,13 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>JavaScript if</h1>
-    <p>Display "Good day!" if the hour is less than 18:00;</p>
+    <h1>JavaScript if and else statements</h1>
+    <p>A time-based greeting;</p>
     <p id="demo">Good Evening!</p>
     <script>
-        if (new Date().getHours() < 18) {
-            document.getElementById("demo").innerHTML = "Good day!";
+        const hour = new Date().getHours();
+        let greeting;
+
+        if (hour < 12) {
+            greeting = "Good day!";
+        } else {
+            greeting = " Good afternoon"
         }
+
+        document.getElementById("demo").innerHTML = greeting;
     </script>
 </body>
 </html>
