@@ -37,5 +37,60 @@
         (login == '')? 'No login':
         '';
     </script>
+
+    <script>
+const day = new Date().getDay();
+
+switch (day) {
+	case 0:
+		console.log("It's Sunday, time to relax!");
+		break;
+	case 1:
+		console.log("Happy Monday!");
+		break;
+	case 2:
+		console.log("It's Tuesday. You got this!");
+		break;
+	case 3:
+		console.log("Hump day already!");
+		break;
+	case 4:
+		console.log("Just one more day 'til the weekend!");
+		break;
+	case 5:
+		console.log("Happy Friday!");
+		break;
+	case 6:
+		console.log("Have a wonderful Saturday!");
+		break;
+	default:
+		console.log("Something went horribly wrong...");
+}
+    </script>
+
+    <script>
+        const grade = prompt('What is your score');
+
+        switch (true) {
+            case grade >= 90:
+                alert('A')
+                break;
+            
+            case grade >= 80:
+                alert('B')
+                break;
+
+            case grade >= 70:
+                alert('C')
+                break;
+            
+            case grade >= 60:
+                alert('D')
+                break;
+            default:
+                alert('F')
+                break;
+        }
+    </script>
 </body>
 </html>
