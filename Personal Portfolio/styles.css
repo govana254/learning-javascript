@@ -1,0 +1,151 @@
+body{
+    color:white;
+    background:rgb(15, 21, 29);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+#navbar {
+    background:rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content:center;
+    top: 0;
+    align-items: center;
+    left: 0px;
+    }
+#profile-link{
+    color: rgb(104, 83, 201);
+    text-decoration: none;
+    padding: 5px;
+    justify-content: center;
+}
+#navbar ul {
+    margin-left: 800px;
+}
+#navbar li {
+    display:inline-block;
+    text-align:center;
+    margin-left: 60px;
+    justify-content: center;
+    position:relative;
+}
+#navbar a {
+    left: 15rem;
+    text-decoration: none;
+    color: white;
+}
+#welcome-section{
+    margin-top: 75px;
+    text-align: center;
+    margin: 170px auto;
+}
+#welcome-section img{
+    size: 10px;
+    display: flex;
+    left: auto;
+    max-width: 200px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+#welcome-section h2{
+    color: rgb(104, 83, 201);
+    font-style: italic;
+}
+#projects{
+    background: rgb(20, 82, 26);
+    padding-top: 35px;
+    margin-left: 0px;
+    text-align: center;
+}
+#projects h1{
+    text-align: center;
+    padding-bottom: 35px;
+}
+.project-tile{
+    color: rgb(190, 219, 253);
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+    justify-content:center;
+    margin: 75px;
+    font-weight: 900;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    font-size: 2.2rem;
+} 
+hr{
+    border-color: rgb(15, 21, 29);
+    height: 10px;
+    background: rgb(15, 21, 29);
+}
+#contacts{
+    text-align: center;
+    justify-content: center;
+    margin: 85px;
+    /* margin: 130px 50px 130px 130px; */
+}
+#contacts h3{
+    font-style: italic;
+}
+#contacts a {
+    margin: 15px;
+    margin-bottom: 330px;
+}
+button{
+    background-color: rgb(104, 83, 201);
+    color: white;
+    border-color: rgb(104, 83, 201);
+    margin: 8px;
+    padding: auto;
+    
+}
+footer{
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top: solid 8px rgb(20, 82, 26);
+    padding: 5px;
+}
+@media (max-width:980px)
+{
+    #welcome-section{
+        margin-top: 75px;
+        text-align: center;
+        margin: 150px auto;
+    }
+    #navbar ul {
+        margin: 0px;
+        justify-content:center;
+    }
+    #navbar {
+        background:rgb(0, 0, 0);
+        position: fixed;
+        width: 100%;
+        height: 75px;
+        display: flex;
+        justify-content:center;
+        top: 0;
+        align-items: center;
+        left: 0px;
+    }
+    #navbar li {
+        display:inline-block;
+        text-align:center;
+        margin-left: 40px;
+        justify-content: center;
+        position:relative;
+    }
+    #navbar a {
+        left: 15rem;
+        text-decoration: none;
+        color: white;
+    }
+}
