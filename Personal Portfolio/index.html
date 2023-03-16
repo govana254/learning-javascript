@@ -16,8 +16,30 @@
                     <li><a href="#welcome-section">About</a></li>
                     <li><a href="#projects">Work</a></li>
                     <li><a href="#contacts">Contact</a></li>
+                    <li>
+                        <label for="theme">Select theme: </label> 
+                        <select id="theme">
+                            <option value="white">White</option>
+                            <option value="black">Black</option>
+                        </select>
+                    </li>
                 </ul>
+                <script>
+                        const select = document.querySelector("select");
+    const html = document.querySelector("html");
+    document.body.style.padding = "10px";
+
+    function update(bgColor, textColor) {
+        html.style.backgroundColor = bgColor;
+        html.style.color = textColor
+    }
+    select.addEventListener("change", () =>select.value === "black"
+    ? update("black", "white")
+    : update("white", "black")
+    );
+                </script>
             </Nav>
+            
         </header>
         <section id="welcome-section">
             <img src="DSC_0125.JPG"/>

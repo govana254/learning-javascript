@@ -1,6 +1,6 @@
 body{
     color:white;
-    background:rgb(15, 21, 29);
+    /* background:rgb(15, 21, 29); */
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
 }
@@ -10,7 +10,7 @@ li{
     color: inherit;
 }
 #navbar {
-    background:rgb(0, 0, 0);
+    /* background:rgb(0, 0, 0); */
     position: fixed;
     width: 100%;
     height: 75px;
